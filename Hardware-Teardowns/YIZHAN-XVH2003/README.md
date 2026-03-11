@@ -5,29 +5,25 @@
 - **Sensor:** GC2053 (1/3")
 - **Output:** HDMI / VGA (1080p)
 - **Marketing:** "13MP" (interpolated)
-- **Recording:** ❌ No SD slot / No USB storage
+
+![PCB Front - Fullhan ISP](photos/pcb_front_isp.jpg)
 
 ## 🛠️ Mainboard Identification
-- **PCB marking:** ZS_ISP262_HVUA_DP30_V2.1 / KADC-J
-- **Front I/O board:** ZS_6kay_HV_DIP30_V2.1
-- **Sensor board:** ZS_sensor269_FPC20_V1.0
+- **Main PCB:** ZS_ISP262_HVUA_DIP30_V2.1
+- **I/O Board:** ZS_6kay_HV_DIP30_V2.1
 
-## 🧠 Main SoC (ISP)
-- **Marking:** 8788-EX / HW5342
-- **Manufacturer:** Likely Fullhan (FH)
-- **Architecture:** Not Linux (Bare-metal or RTOS)
-- **Function:** ISP, Scaling, Parallel Interface, RGB Output.
+![I/O Panel and OSD Buttons](photos/io_panel_buttons.jpg)
 
-## 📺 HDMI Section
-- **HDMI TX:** T7028S16 (Converts RGB to TMDS)
+## 🧠 SoC and Signals
+The core logic is handled by a Fullhan 8788-EX ISP. 
+Detailed inspection of the HDMI section reveals HPD (Hot Plug Detect) signals and dedicated 3.3V rails.
 
-## 📡 Interfaces & Debug
-- **Sensor:** Parallel CMOS interface (confirmed by PCLK, 2V8, 1V2 signals).
-- **UART:** 4-pin cluster near RTCK pads. 
-- **Settings:** Likely 115200 8N1 @ 3.3V TTL.
+![HDMI Section Detail](photos/hdmi_section_detail.jpg)
 
-## 🏁 Conclusion
-The YIZHAN XVH2003 is a dedicated video processing pipeline without local storage or Linux OS. High value for industrial applications but requires external capture for recording.
+## 📡 Sensor Interface
+The sensor connects via a 30-pin FPC/DIP interface. Parallel CMOS signals (PCLK, DATA) are routed directly to the ISP.
+
+![Sensor Connector Detail](photos/sensor_connector_detail.jpg)
 
 ---
-*Part of the PCB-Reconnaissance project.*
+*Part of the PCB-Reconnaissance project by c3l3r1on.*
