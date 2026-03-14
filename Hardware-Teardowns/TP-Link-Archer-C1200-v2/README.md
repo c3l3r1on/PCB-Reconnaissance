@@ -21,8 +21,8 @@ Set of PCB photos used during the hardware-level diagnosis of a `TP-Link Archer 
 ## Support The Lab
 - If you have a bit of dead hardware, half-dead hardware, or "it only smoked once" hardware lying around, I will gladly take it in and turn it into documentation.
 - Coffee is also accepted with zero resistance:
-  - Ko-fi: <a class="link" href="https://ko-fi.com/c3l3r1on" target="_blank" rel="noopener">ko-fi.com/c3l3r1on</a> <a class="link" href="https://ko-fi.com/c3l3r1on" target="_blank" rel="noopener"><img src="https://cdn.simpleicons.org/kofi/00D4FF" alt="Ko-fi"></a>
-  - Buy Me a Coffee: <a class="link" href="https://buymeacoffee.com/c3l3r1on" target="_blank" rel="noopener">buymeacoffee.com/c3l3r1on</a> <a class="link" href="https://buymeacoffee.com/c3l3r1on" target="_blank" rel="noopener"><img src="https://cdn.simpleicons.org/buymeacoffee/00D4FF" alt="Buy Me a Coffee"></a>
+  - Ko-fi: <a class="link" href="https://ko-fi.com/c3l3r1on" target="_blank" rel="noopener">ko-fi.com/c3l3r1on</a>
+  - Buy Me a Coffee: <a class="link" href="https://buymeacoffee.com/c3l3r1on" target="_blank" rel="noopener">buymeacoffee.com/c3l3r1on</a>
 
 ## Markings Read From The Board
 - Main Ethernet switch IC: `Broadcom BCM53125SKMMLG TE1734 P30 277-20 3B W`
